@@ -47,7 +47,7 @@
     "vue": "^2.6.0",
     "vue-axios": "~1.2.2",
     "vue-chartjs": "^3.4.2",
-    "vue-clickaway": "~2.1.0",
+    "vue-clickaway": "~2.2.2",
     "vue-color": "^2.7.1",
     "vue-easytable": "^2.1.2",
     "vue-i18n": "^8.22.1",

@@ -1,0 +1,46 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "23:30"
+  open-pull-requests-limit: 10
+  reviewers:
+  - sony-mathew
+  - sojan-official
+  - subintp
+  labels:
+  - dependencies
+  - ruby
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "23:30"
+  open-pull-requests-limit: 10
+  reviewers:
+  - pranavrajs
+  - nithindavid
+  labels:
+  - dependencies
+  - javascript
+  ignore:
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+  - dependency-name: "@babel/core"
+    versions:
+    - 7.13.10
+  - dependency-name: core-js
+    versions:
+    - 3.9.1
+  - dependency-name: eslint-plugin-vue
+    versions:
+    - 7.8.0
+  - dependency-name: vue-i18n
+    versions:
+    - 8.24.1
+  - dependency-name: v-tooltip
+    versions:
+    - 2.1.2
